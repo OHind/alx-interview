@@ -6,7 +6,7 @@ def pascal_triangle(n):
     """Triangle"""
     if n <= 0:
         return []
-    my_list =[[1]]
+    my_list = [[1]]
     for i in range(1, n):
         row = [1]
         for j in range(1, i):
